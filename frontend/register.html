@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Registred Users</title>
+</head>
+
+<body>
+  <div class="form-bg">
+    <form id="form-container">
+      <h1>User Registration</h1>
+      <div class="input name-input">
+        <label for="name">Full Name: </label>
+        <input type="text" name="name" id="username" placeholder="John Doe" required>
+      </div>
+      <div class="input name-email">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required>
+      </div>
+      <div class="input name-password">
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" required minlength="8">
+      </div>
+      <input type="submit" value="Submit" id="submit-btn"/>
+    </form>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="register.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+#tableBody > tr{
+  cursor: pointer;
+}
+
+.form-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+}
+
+#form-container{
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.input{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+#submit-btn{
+  outline: none;
+  border: 1px solid white;
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+}
